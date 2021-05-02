@@ -116,7 +116,7 @@
   },
   "Blink": {
     "State": false,
-    "KeyBind": 0,
+    "KeyBind": 44,
     "Array": true
   },
   "BlockESP": {
@@ -302,7 +302,7 @@
   "HUD": {
     "State": true,
     "KeyBind": 0,
-    "Array": false
+    "Array": true
   },
   "HighJump": {
     "State": false,
@@ -310,7 +310,7 @@
     "Array": true
   },
   "HitBox": {
-    "State": false,
+    "State": true,
     "KeyBind": 0,
     "Array": true
   },
@@ -370,7 +370,7 @@
     "Array": true
   },
   "LiquidChat": {
-    "State": true,
+    "State": false,
     "KeyBind": 0,
     "Array": false
   },
@@ -571,7 +571,7 @@
   },
   "Scaffold": {
     "State": false,
-    "KeyBind": 23,
+    "KeyBind": 47,
     "Array": true
   },
   "ServerCrasher": {

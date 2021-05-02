@@ -95,32 +95,6 @@
     }
   },
   {
-    "Type": "Scoreboard",
-    "X": 5.0,
-    "Y": 0.0,
-    "Scale": 1.0,
-    "HorizontalFacing": "Right",
-    "VerticalFacing": "Middle",
-    "Text-R": 255,
-    "Text-G": 255,
-    "Text-B": 255,
-    "Background-R": 0,
-    "Background-G": 0,
-    "Background-B": 0,
-    "Background-Alpha": 95,
-    "Rect": false,
-    "Rect-Color": "Custom",
-    "Rect-R": 0,
-    "Rect-G": 111,
-    "Rect-B": 255,
-    "Rect-Alpha": 255,
-    "Shadow": false,
-    "Font": {
-      "fontName": "Minecraft Font",
-      "fontSize": -1
-    }
-  },
-  {
     "Type": "Armor",
     "X": -8.0,
     "Y": 57.0,
@@ -149,5 +123,31 @@
     "Scale": 1.0,
     "HorizontalFacing": "Right",
     "VerticalFacing": "Down"
+  },
+  {
+    "Type": "Scoreboard",
+    "X": 5.0,
+    "Y": 0.0,
+    "Scale": 1.0,
+    "HorizontalFacing": "Right",
+    "VerticalFacing": "Middle",
+    "Text-R": 255,
+    "Text-G": 255,
+    "Text-B": 255,
+    "Background-R": 0,
+    "Background-G": 0,
+    "Background-B": 0,
+    "Background-Alpha": 95,
+    "Rect": false,
+    "Rect-Color": "Custom",
+    "Rect-R": 0,
+    "Rect-G": 111,
+    "Rect-B": 255,
+    "Rect-Alpha": 255,
+    "Shadow": false,
+    "Font": {
+      "fontName": "Minecraft Font",
+      "fontSize": -1
+    }
   }
 ]

@@ -1,75 +1,9 @@
 {
-  "Combat": {
-    "open": false,
-    "visible": true,
-    "posX": 100,
-    "posY": 5,
-    "Aimbot": {
-      "Settings": false
-    },
-    "AutoArmor": {
-      "Settings": false
-    },
-    "AutoBow": {
-      "Settings": false
-    },
-    "AutoClicker": {
-      "Settings": false
-    },
-    "AutoLeave": {
-      "Settings": false
-    },
-    "AutoPot": {
-      "Settings": false
-    },
-    "AutoSoup": {
-      "Settings": false
-    },
-    "AutoWeapon": {
-      "Settings": false
-    },
-    "BowAimbot": {
-      "Settings": false
-    },
-    "Criticals": {
-      "Settings": false
-    },
-    "FastBow": {
-      "Settings": false
-    },
-    "HitBox": {
-      "Settings": false
-    },
-    "Ignite": {
-      "Settings": false
-    },
-    "KillAura": {
-      "Settings": false
-    },
-    "NoFriends": {
-      "Settings": false
-    },
-    "SuperKnockback": {
-      "Settings": false
-    },
-    "TNTBlock": {
-      "Settings": false
-    },
-    "TeleportHit": {
-      "Settings": false
-    },
-    "Trigger": {
-      "Settings": false
-    },
-    "Velocity": {
-      "Settings": false
-    }
-  },
   "Player": {
     "open": false,
     "visible": true,
-    "posX": 100,
-    "posY": 25,
+    "posX": 83,
+    "posY": 23,
     "AntiAFK": {
       "Settings": false
     },
@@ -119,13 +53,13 @@
   "Movement": {
     "open": false,
     "visible": true,
-    "posX": 100,
-    "posY": 45,
+    "posX": 74,
+    "posY": 43,
     "AirJump": {
       "Settings": false
     },
     "AirLadder": {
-      "Settings": false
+      "Settings": true
     },
     "AutoWalk": {
       "Settings": false
@@ -218,11 +152,77 @@
       "Settings": false
     }
   },
+  "Combat": {
+    "open": true,
+    "visible": true,
+    "posX": 603,
+    "posY": 18,
+    "Aimbot": {
+      "Settings": false
+    },
+    "AutoArmor": {
+      "Settings": false
+    },
+    "AutoBow": {
+      "Settings": false
+    },
+    "AutoClicker": {
+      "Settings": false
+    },
+    "AutoLeave": {
+      "Settings": false
+    },
+    "AutoPot": {
+      "Settings": false
+    },
+    "AutoSoup": {
+      "Settings": false
+    },
+    "AutoWeapon": {
+      "Settings": false
+    },
+    "BowAimbot": {
+      "Settings": false
+    },
+    "Criticals": {
+      "Settings": false
+    },
+    "FastBow": {
+      "Settings": false
+    },
+    "HitBox": {
+      "Settings": true
+    },
+    "Ignite": {
+      "Settings": false
+    },
+    "KillAura": {
+      "Settings": false
+    },
+    "NoFriends": {
+      "Settings": true
+    },
+    "SuperKnockback": {
+      "Settings": false
+    },
+    "TNTBlock": {
+      "Settings": false
+    },
+    "TeleportHit": {
+      "Settings": false
+    },
+    "Trigger": {
+      "Settings": false
+    },
+    "Velocity": {
+      "Settings": false
+    }
+  },
   "Render": {
     "open": false,
     "visible": true,
-    "posX": 100,
-    "posY": 65,
+    "posX": 49,
+    "posY": 263,
     "AntiBlind": {
       "Settings": false
     },
@@ -308,8 +308,8 @@
   "World": {
     "open": false,
     "visible": true,
-    "posX": 100,
-    "posY": 85,
+    "posX": 49,
+    "posY": 291,
     "AutoBreak": {
       "Settings": false
     },
@@ -353,8 +353,8 @@
   "Misc": {
     "open": false,
     "visible": true,
-    "posX": 100,
-    "posY": 105,
+    "posX": 40,
+    "posY": 328,
     "AntiBot": {
       "Settings": false
     },
@@ -389,8 +389,8 @@
   "Exploit": {
     "open": false,
     "visible": true,
-    "posX": 100,
-    "posY": 125,
+    "posX": 36,
+    "posY": 365,
     "AbortBreaking": {
       "Settings": false
     },
@@ -467,8 +467,8 @@
   "Fun": {
     "open": false,
     "visible": true,
-    "posX": 100,
-    "posY": 145,
+    "posX": 41,
+    "posY": 390,
     "Derp": {
       "Settings": false
     },
@@ -479,7 +479,7 @@
   "Targets": {
     "open": false,
     "visible": true,
-    "posX": 100,
-    "posY": 185
+    "posX": 104,
+    "posY": 467
   }
 }

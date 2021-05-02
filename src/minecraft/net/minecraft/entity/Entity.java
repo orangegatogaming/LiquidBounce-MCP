@@ -5,6 +5,7 @@ import net.ccbluex.liquidbounce.event.MoveEvent;
 import net.ccbluex.liquidbounce.event.StepConfirmEvent;
 import net.ccbluex.liquidbounce.event.StepEvent;
 import net.ccbluex.liquidbounce.event.StrafeEvent;
+import net.ccbluex.liquidbounce.features.module.modules.combat.HitBox;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -1781,7 +1782,13 @@ public abstract class Entity implements ICommandSender {
     }
 
     public float getCollisionBorderSize() {
-        return 0.1F;
+        final HitBox hitBox = (HitBox) LiquidBounce.moduleManager.getModule(HitBox.class);
+
+        if (hitBox.getState()){
+            return 0.1F + hitBox.getSizeValue().get();
+        }else{
+            return 0.1F;
+        }
     }
 
     /**

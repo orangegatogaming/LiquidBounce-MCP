@@ -23,27 +23,27 @@
     "CapeEnabled": true
   },
   "Background": {
-    "Enabled": true,
+    "Enabled": false,
     "Particles": false
   },
   "Aimbot": {
     "Range": 4.4,
-    "TurnSpeed": 2.0,
+    "TurnSpeed": 180.0,
     "FOV": 180.0,
-    "Center": false,
+    "Center": true,
     "Lock": true,
     "OnClick": false,
     "Jitter": false
   },
   "AntiAFK": {
-    "Mode": "Random",
+    "Mode": "Custom",
     "SwingDelay": 100,
-    "RotationDelay": 100,
-    "RotationAngle": 1.0,
-    "Jump": true,
-    "Move": true,
+    "RotationDelay": 0,
+    "RotationAngle": -22.5,
+    "Jump": false,
+    "Move": false,
     "Rotate": true,
-    "Swing": true
+    "Swing": false
   },
   "AntiBlind": {
     "Confusion": true,
@@ -88,15 +88,15 @@
     "WaitForBowAimbot": true
   },
   "AutoClicker": {
-    "MaxCPS": 8,
-    "MinCPS": 5,
-    "Right": true,
+    "MaxCPS": 19,
+    "MinCPS": 17,
+    "Right": false,
     "Left": true,
     "Jitter": false
   },
   "AutoLeave": {
-    "Health": 8.0,
-    "Mode": "Quit"
+    "Health": 13.93,
+    "Mode": "SelfHurt"
   },
   "AutoPot": {
     "Health": 15.0,
@@ -104,7 +104,7 @@
     "OpenInv": false,
     "SimulateInventory": true,
     "GroundDistance": 2.0,
-    "Mode": "Normal"
+    "Mode": "Port"
   },
   "AutoRespawn": {
     "Instant": true
@@ -145,7 +145,7 @@
     "Snow": true
   },
   "BowAimbot": {
-    "Silent": true,
+    "Silent": false,
     "Predict": true,
     "ThroughWalls": false,
     "PredictSize": 2.0,
@@ -160,7 +160,7 @@
   },
   "BufferSpeed": {
     "SpeedLimit": true,
-    "MaxSpeed": 2.0,
+    "MaxSpeed": 5.0,
     "Buffer": true,
     "Stairs": true,
     "StairsBoost": 1.87,
@@ -183,7 +183,7 @@
     "NoHurt": true
   },
   "BugUp": {
-    "Mode": "FlyFlag",
+    "Mode": "TeleportBack",
     "MaxFallDistance": 10,
     "MaxDistanceToSetback": 2.5,
     "Indicator": true
@@ -239,7 +239,7 @@
     "Delay": 0
   },
   "Criticals": {
-    "Mode": "packet",
+    "Mode": "Packet",
     "Delay": 0,
     "HurtTime": 10
   },
@@ -282,14 +282,14 @@
     "LongJump": false
   },
   "FastUse": {
-    "Mode": "NCP",
+    "Mode": "Instant",
     "NoMove": false,
     "CustomDelay": 0,
     "CustomSpeed": 2,
     "CustomTimer": 1.1
   },
   "Fly": {
-    "Mode": "Vanilla",
+    "Mode": "Rewinside",
     "VanillaSpeed": 2.0,
     "VanillaKickBypass": false,
     "NCPMotion": 0.0,
@@ -334,12 +334,12 @@
     "FontChat": false
   },
   "HighJump": {
-    "Height": 2.0,
-    "Mode": "Vanilla",
+    "Height": 5.0,
+    "Mode": "Damage",
     "OnlyGlassPane": false
   },
   "HitBox": {
-    "Size": 0.4
+    "Size": 0.94
   },
   "IceSpeed": {
     "Mode": "NCP"
@@ -396,7 +396,7 @@
     "MaxCPS": 8,
     "MinCPS": 5,
     "HurtTime": 10,
-    "Range": 3.7,
+    "Range": 3.0,
     "ThroughWallsRange": 3.0,
     "RangeSprintReducement": 0.0,
     "Priority": "Distance",
@@ -404,8 +404,8 @@
     "Swing": true,
     "KeepSprint": true,
     "AutoBlock": false,
-    "InteractAutoBlock": true,
-    "DelayedBlock": true,
+    "InteractAutoBlock": false,
+    "DelayedBlock": false,
     "BlockRate": 100,
     "RayCast": true,
     "RayCastIgnored": false,
@@ -433,14 +433,14 @@
     "JWT": false
   },
   "LiquidWalk": {
-    "Mode": "NCP",
+    "Mode": "Vanilla",
     "NoJump": false,
     "AACFlyMotion": 0.5
   },
   "LongJump": {
-    "Mode": "NCP",
+    "Mode": "AACv1",
     "NCPBoost": 4.25,
-    "AutoJump": false
+    "AutoJump": true
   },
   "NameProtect": {
     "FakeName": "\u0026cMe",
@@ -464,7 +464,7 @@
     "FOV": 1.0
   },
   "NoFall": {
-    "Mode": "SpoofGround",
+    "Mode": "MLG",
     "MinMLGHeight": 5.0
   },
   "NoPitchLimit": {
@@ -493,7 +493,7 @@
     "ServerSide": true
   },
   "NoWeb": {
-    "Mode": "None"
+    "Mode": "Rewi"
   },
   "Nuker": {
     "Radius": 5.2,
@@ -531,8 +531,8 @@
   "Regen": {
     "Mode": "Vanilla",
     "Health": 18,
-    "Food": 18,
-    "Speed": 100,
+    "Food": 20,
+    "Speed": 500,
     "NoAir": false,
     "PotionEffect": false
   },
@@ -589,11 +589,11 @@
     "RightSleeve": true
   },
   "SlimeJump": {
-    "Motion": 0.42,
+    "Motion": 1.0,
     "Mode": "Add"
   },
   "Sneak": {
-    "Mode": "MineSecure",
+    "Mode": "Legit",
     "StopMove": false
   },
   "Spammer": {
@@ -623,9 +623,9 @@
     "CheckServerSideOnlyGround": false
   },
   "Step": {
-    "Mode": "NCP",
-    "Height": 1.0,
-    "JumpHeight": 0.42,
+    "Mode": "Jump",
+    "Height": 7.31,
+    "JumpHeight": 4.0,
     "Delay": 0
   },
   "StorageESP": {
@@ -704,7 +704,7 @@
     "AACPushYReducer": true
   },
   "WallClimb": {
-    "Mode": "Simple",
+    "Mode": "CheckerClimb",
     "ClipMode": "Fast",
     "CheckerClimbMotion": 0.0
   },
